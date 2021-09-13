@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width:20%;
+    margin: 100px 70px 0 20px;
+    border: 1px solid #d4f3f3;
+    background: #d4f3f3;
+    box-shadow: 7px 10px 15px #e8ffff;
+    border-radius: 20px;
+}
+.nav{
+    width: 90%;
+    margin: 10px auto;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0 0 10px violet;
+}
+.nav input{
+    background-color: #bef1fa;
+}
+#play{
+    border-radius: 30px;
+    border: none;
+    width: 20%;
+    font-size: 13px;
+    text-align: center;
+    padding: 2px;
+    font-weight: 500;
+    color: blueviolet;
+}
+#play:hover{
+    transform: scale(1.05,1.05);
+    box-shadow: 0 0 20px violet;
+}
+#video1{
+    width: 100%;
+    padding: 7px;
+    margin: 20px 0;
+    display: none;
+}
+
+#video1 video{
+    transition: 3s ease-in-out;
+    margin: auto;
+    display: block;
+    width: 70%;
+    height: 70%;
+    box-shadow: 7px 10px 10px rgb(189, 188, 188);
+}
+#p1{
+    width: 100%;
+    color: cadetblue;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 10px;
+    display: block;
+    font-family: 'popin',sans-serif;
+}
+#p1 span{
+    color: rgb(179, 211, 212);
+}
+#stage {
+    display: none; 
+    background: white;
+    margin-left: 30px;
+    position: absolute;  
+    top: 0;  
+    left: 30%;  
+    right: 0;   
+    font-family: Courier New;  
+    font-size: 15px;  
+    line-height: 9px;
+}  
+
+@media screen and (max-width:400px) {
+    body{
+        position: relative;
+    }
+    #container{
+        width: 75%;
+        margin: 0 auto ;
+        box-shadow: none;
+    }
+    #stage { 
+        height: 100%;
+        width: 100%;
+        background: white;
+        position: absolute;  
+        top: 285px;  
+        left: 2.6%;
+        right: 0;   
+        font-family: Courier New;  
+        font-size: 5.5px;  
+        line-height: 3.8px; 
+    }
+}
+
+@media (min-width:401px) and (max-width:450px) {
+    body{
+        position: relative;
+    }
+    #container{
+        width: 75%;
+        margin: auto;
+    }
+    #stage { 
+        background: white;
+        position: absolute;  
+        top:300px;  
+        left: 8%;
+        font-family: Courier New;  
+        font-size: 6px;  
+        line-height: 4px; 
+    }
+}
+
+@media (min-width:451px) and (max-width:552px) {
+    body{
+        position: relative;
+    }
+    #container{
+        width: 47%;
+    }
+    #stage { 
+        background:transparent;
+        position: absolute;    
+        left: 36%;
+        font-family: Courier New;  
+        font-size: 4.5px;  
+        line-height: 3px; 
+    }
+}
+
+@media (min-width:552px) and (max-width:592px) {
+    body{
+        position: relative;
+    }
+    #container{
+        width: 37%;
+    }
+    #stage { 
+        background:transparent;
+        position: absolute;    
+        left: 35%;
+        font-family: Courier New;  
+        font-size: 5.9px;  
+        line-height: 3.5px; 
+    }
+}
+
+@media (min-width:593px) and (max-width:650px) {
+    body{
+        position: relative;
+    }
+    #container{
+        width: 37%;
+    }
+    #stage { 
+        background:transparent;
+        position: absolute;    
+        left: 35%;
+        font-family: Courier New;  
+        font-size: 6.5px;  
+        line-height: 3.6px; 
+    }
+}
+
+@media (min-width:653px) and (max-width:714px) {
+    body{
+        position: relative;
+    }
+    #container{
+        width: 35%;
+        margin: 20px 0;
+    }
+    #stage { 
+        background:transparent;
+        position: absolute;  
+        left: 35%;
+        font-family: Courier New;  
+        font-size: 6.5px;  
+        line-height: 5px; 
+    }
+}
+
+@media (min-width:715px) and (max-width:850px) {
+    body{
+        position: relative;
+    }
+    #container{
+        width: 35%;
+        margin: 20px 0;
+    }
+    #stage { 
+        background:transparent;
+        position: absolute;  
+        left: 35%;
+        font-family: Courier New;  
+        font-size: 8px;  
+        line-height: 5px; 
+    }
+}
+
+@media (min-width:851px) and (max-width:950px) {
+    body{
+        position: relative;
+    }
+    #container{
+        width: 35%;
+        margin: 20px 0;
+    }
+    #stage { 
+        background:transparent;
+        position: absolute;  
+        left: 35%;
+        font-family: Courier New;  
+        font-size: 9px;  
+        line-height: 5px; 
+    }
+}
+
+@media (min-width:951px) and (max-width:1250px) {
+    body{
+        position: relative;
+    }
+    #container{
+        width: 35%;
+        margin: 20px 0;
+    }
+    #stage { 
+        background:transparent;
+        position: absolute;  
+        left: 35%;
+        font-family: Courier New;  
+        font-size: 10px;  
+        line-height: 6px; 
+    }
+}
